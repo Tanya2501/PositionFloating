@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+    font-weight:400;
+  color:#333333;
+}
+body{
+  height: 2000px;
+  margin: 0;
+}
+.center{
+  margin: 200px auto 0px auto;
+  width: 563px;
+}
+.first, .second, .third{
+  width: 523px;
+  height: 750px;
+  border: 2px solid black;
+}
+
+.sticker{
+  width: 111px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 0 10px 10px 0;
+}
+
+.firstSticker{
+   background-color: #0099ff;
+   position: absolute;
+   left: 428px;
+   top: 48px;
+}
+.secondSticker{
+  background-color: #39B54A;
+  position: absolute;
+  left: 460px;
+  top: 43px;
+}
+.thirdSticker{
+  background-color: #ff9966;
+  position: absolute;
+  left: 494px;
+  top: 39px;
+}
+.second{
+  background-color: #cccccc;
+    position: relative;
+    top: -726px;
+    left: 20px; 
+}
+.first{
+    background-color: #999999;
+    position: relative;
+    top: 44px;
+    left: 40px;
+}
+.third{
+  background-color: #EBEBEB;
+    position: relative;
+    top: -1496px;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+.topPicture{
+  width:207px;
+  float: left;
+  margin-right: 21px;
+  margin-bottom: 12px;
+  padding-top: 2px;
+}
+p {
+  font-size: 11.7px;
+    line-height: 14.8px;
+}
+.middleParagraph{
+  margin-top: -11.7px;
+}
+.middlePicture{
+  padding-top: 5px;
+  float: right;
+  width:140px;
+  margin-left: 4px;
+}
+h2{
+  margin-top: 33px;
+  margin-bottom: 13px;
+}
+h3{
+  clear: both;
+    padding-top: 16px;
+    font-size: 18px;
+}
+.joke{
+  padding-top: 3px;
+}
+.joke:after{
+content: '';
+display: block;
+clear:both;
+visibility: hidden;
+height: 0;
+}
+.joke img:nth-child(odd){
+  float:left;
+  width: 195px;
+}
+.joke img:nth-child(even){
+  float:right;
+  width: 195px;
+}
+.firstJoke, .secondJoke{
+  margin-bottom: 12px;
+}
+footer{
+    width: 440px;
+    position: absolute;
+    bottom: 46px;
+    font-size: 8.7px;
+    text-align: center;
+}
+.share{
+  width: 89px;
+  height:71px;
+  background-color: #fbaf5d;
+  position: fixed;
+  bottom: 210px;
+  border: 1px solid black;
+  text-align: center;
+  right: 0;
+}
+h4{
+  margin-bottom: 11px;
+  margin-top: 5px;
+}
+i.fa{
+  font-size: 22px;
+  width: 22px;
+}
+.firstIcon{
+  color:#336699;
+}
+.secondIcon{
+  color:#0099cc;
+  padding-left: 4px;}
+.thirdIcon{
+  padding-left: 6px;
+}
